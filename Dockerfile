@@ -12,4 +12,4 @@ ENV VCS_REF=$VCS_REF
 
 
 # Command to run when the image starts
-CMD ["app.py"]
+CMD ["python", "/web/app.py"]
